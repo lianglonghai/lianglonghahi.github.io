@@ -1,0 +1,129 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>冷冷的冰雨</title>
+<style type="text/css">
+*{margin:0;padding:0;font-size:14px;font-family:"微软雅黑"；}
+
+.header{width:1680px;height:80px;}
+.header img{margin-left:80px;float:left;margin-top:10px;}
+.header a{font-size:12px;float:right;text-decoration:none;color:#999;margin-right:20px;}
+.header a:hover{color:#F00;}
+.header_left{margin-right:750px;}
+.header_left{line-height:80px;}
+.header_right{width:300px;height:80px;float:right;margin-right:300px;}
+.header_right ul li{list-style-type:none;line-height:25px;}
+.header_right ul li a{margin-right:10px;}
+.header_right ul{margin-top:23px;background:#666;height:30px;width:200px;border:1px solid #666;border-radius:5px;text-align:center;padding-right:10px;}
+	
+.nav1{float:left;width:1680px;height:40px;background:#000;position:relative;}
+.search{width:210px;height:25px;border:2px solid #FFF;color:#999;background:#000;border-radius:5px;position:absolute;left:1000px;top:8px;}
+.nav1 ul{margin-left:170px;}
+.nav1 li{float:left;list-style-type:none;color:#FFF;margin-right:30px;font-size:16px;line-height:40px;}
+.nav1 li a{text-decoration:none;color:#FFF;font-size:16px;}
+.nav1 li a:hover{border-bottom:2px solid #F00;}
+.nav1 div{color:#000;background:#FFF;width:450px;height:200px;float:left;display:none;position:absolute;top:35px;left:0px;}
+.nav1 div img{float:left;margin-top:20px;margin-left:150px;}
+.nav1 div ul{float:left;height:140px;width:400px;margin-top:20px;margin-left:50px;}
+.nav1 div ul li a{color:#999;text-decoration:none;}
+.nav1 div ul li a:hover{color:#C00;}
+.nav1 li:hover div{display:block;width:1680px;}
+
+.nav2{width:1680px;height:40px;margin-top:5px;line-height:40px;background:#000;color:#CCC;}
+.nav2 p{margin-left:200px;}
+
+
+
+</style>
+</head>
+
+<body>
+<div class="header">
+	<img src="01.jpg" width="491" height="59" /> 
+  <div class="header_right">
+  <ul>
+    <li><a href="#">后退</a></li>
+    <li><a href="#">登陆</a></li>
+    <li><a href="#">注册</a></li>
+    </ul>
+    </div>
+    <div class="header_left"><strong><a href="#">English</a>
+    <a href="#">个人邮箱</a>
+    <a href="#">信息公开</a>
+    <a href="#">意见推送</a></strong></div>
+</div>
+<div class="nav1">
+	<ul>
+    	<strong>
+        <li><a href="#">首页</a>
+			<div>
+				<img src="06.jpg" width="300" height="160" />
+                <ul>
+	            <li><a href="#">个人简介</a></li><br/>
+                    <li><a href="#">校园风光</a></li></ul></div>
+ 		</li> 
+        <li><a href="#">个人简介</a>
+            <div>
+                <img src="12.jpg" width="300" height="160" />
+                <ul >
+                <li><a href="#">个人简历</a></li><br/> 
+                <li><a href="#">个人经历</a></li><br/> 
+                <li><a href="#">职业规划</a></li><br /></ul>
+            </div>
+    	<li><a href="#">作品推出</a>
+            <div>
+                <img src="08.jpg" width="300" height="160" />
+                <ul >
+                <li><a href="#">论文发表</a></li><br/> 
+                <li><a href="#">兴趣写作</a></li><br/> 
+                <li><a href="#">人力资源</a></li><br />
+                <li><a href="#">信息管理</a></li><br /> </ul>
+		    </div>
+        </li> 
+    	<li><a href="#">个人博客</a>
+    	<div>
+        	<img src="13.jpg" width="300" height="160" />
+    	    <ul>
+    	      <li><a href="#">随心日志</a></li><br/>
+    	      <li><a href="#">开心一刻</a></li><br/>
+    	      <li><a href="#">小短文</a></li></ul></div>
+  	  </li> 
+    	<li><a href="#">订阅文献</a>
+        <div>
+                <img src="02.jpg" width="300" height="160" />
+                <ul>
+                <li><a href="#">闲时阅读</a></li><br/>
+                <li><a href="#">专业攻读</a></li><br/>
+                <li><a href="#">在线订阅</a></li><br/> 
+                <li><a href="#">文献收藏</a></li>
+               </li> </ul></div>
+        </li>
+    	<li><a href="#">兴趣导向</a>
+        <div>
+                <img src="05.jpg" width="300" height="160" />
+                <ul>
+                <li><a href="#">摄影</a></li><br/> 
+                <li><a href="#">阅读</a></li><br/> 
+                <li><a href="#">音乐</a></li><br/> 
+                <li><a href="#">旅行</a></li><br/>
+                <li><a href="#">小说</a></li><br/> 
+                <li><a href="#">电影</a></li></ul></div>
+        </li> 
+    	<li><a href="#">互动空间</a>
+        		<div>
+ 				<img src="17.jpg" width="300" height="160" />
+                <ul>
+                <li><a href="#">留言</a></li><br/> 
+                <li><a href="#">在线互动</a></li></ul> </div>
+        </li></strong>
+    </ul>
+    
+    	   <input type="text" class="search" value=" 请输入搜索内容......." />   
+</div>
+<div class="container"><img src="18.jpg" width="1366" height="768" /></div>
+<div class="nav2">
+	<p>版权所有©地址：贵州省贵阳市花溪区花溪大学城贵州财经大学&nbsp;&nbsp;邮编：550025黔ICP备52010067号&nbsp;&nbsp;电话:13037819412&nbsp;&nbsp;邮箱:1778859001@qq.com</p>
+</div>
+</body>
+</html>
